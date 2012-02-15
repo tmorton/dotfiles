@@ -7,6 +7,8 @@ eval "$(rbenv init -)"
 
 export PROMPT='%~%# '
 
+export EDITOR='subl -w'
+
 # aliases for coding
 alias be='bundle exec'
 alias ber='bundle exec rake'
