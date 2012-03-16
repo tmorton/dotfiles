@@ -4,3 +4,5 @@
 	email = tim@timothymorton.com
 [github]
 	user = tmorton
+[push]
+	default = current
