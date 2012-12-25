@@ -21,6 +21,7 @@ alias ys='yard server -g'
 # Heroku functions
 hprod () { heroku $* --remote production; }
 hqa () { heroku $* --remote qa; }
+htabsqa() { heroku $* --remote tabs-qa; }
 hstaging () { heroku $* --remote staging; }
 hintegration () { heroku $* --remote integration; }
 htabs() { heroku $* --remote tabs; }
