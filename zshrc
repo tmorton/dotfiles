@@ -12,16 +12,17 @@ export EDITOR='subl -w'
 alias be='bundle exec'
 alias ber='bundle exec rake'
 
-alias mysql_start='sudo /opt/local/etc/LaunchDaemons/org.macports.mysql5/mysql5.wrapper start';
-alias mysql_stop='sudo /opt/local/etc/LaunchDaemons/org.macports.mysql5/mysql5.wrapper stop';
-alias mysql_restart='sudo /opt/local/etc/LaunchDaemons/org.macports.mysql5/mysql5.wrapper restart';
-
 alias ys='yard server -g'
+
+alias g='git'
+
 
 # Heroku functions
 hprod () { heroku $* --remote production; }
 hqa () { heroku $* --remote qa; }
 htabsqa() { heroku $* --remote tabs-qa; }
-hstaging () { heroku $* --remote staging; }
+hstaging () { heroku $* --remote staging-alpha; }
 hintegration () { heroku $* --remote integration; }
 htabs() { heroku $* --remote tabs; }
+
+[ -s "/Users/tim/.nvm/nvm.sh" ] && . "/Users/tim/.nvm/nvm.sh" # This loads nvm
