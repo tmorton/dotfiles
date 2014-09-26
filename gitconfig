@@ -6,3 +6,10 @@
 	user = tmorton
 [push]
 	default = current
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[alias]
+  co = checkout
+  s = status
+  
