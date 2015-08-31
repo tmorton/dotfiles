@@ -26,3 +26,6 @@ hintegration () { heroku $* --remote integration; }
 htabs() { heroku $* --remote tabs; }
 
 [ -s "/Users/tim/.nvm/nvm.sh" ] && . "/Users/tim/.nvm/nvm.sh" # This loads nvm
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
