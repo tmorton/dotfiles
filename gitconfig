@@ -12,4 +12,8 @@
 [alias]
   co = checkout
   s = status
-  
+  st = status
+  cm = commit -m
+  cam = commit -am
+[heroku]
+	account = tim-webs
