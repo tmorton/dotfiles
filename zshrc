@@ -47,3 +47,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 
 export NODE_ENV="development"
+
+# ASDF version manager - see https://github.com/asdf-vm/asdf
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
