@@ -35,10 +35,6 @@ alias g='git'
 hprod () { heroku $* --remote heroku-prod; }
 hstag () { heroku $* --remote heroku-staging; }
 
-# NVM installed by homebrew
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
-
 
 PATH=$HOME/.rbenv/shims:$PATH
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
