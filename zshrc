@@ -12,7 +12,11 @@ unsetopt beep
 bindkey -e
 # End of lines configured by zsh-newuser-install
 
-source ~/.zshrc-from-oh-my-zsh
+if [ -d ~/.oh-my-zsh ]; then
+  source ~/.zshrc-from-oh-my-zsh
+else
+  echo "Can't find oh-my-zsh!  You should install it"
+fi
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 
