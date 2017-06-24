@@ -39,7 +39,7 @@ hstag () { heroku $* --remote heroku-staging; }
 PATH=$HOME/.rbenv/shims:$PATH
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin # Add Heroku's postgres app
+PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin # Add Heroku's postgres app
 
 
 ### Added by the Heroku Toolbelt
