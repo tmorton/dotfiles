@@ -20,3 +20,7 @@
 	account = tim-webs
 [credential]
 	helper = osxkeychain
+[pull]
+	rebase = true
+[include]
+	path = ~/.gitconfig.local
