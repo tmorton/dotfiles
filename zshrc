@@ -26,7 +26,7 @@ export PATH=$HOME/bin:/opt/local/bin:/opt/local/sbin:$PATH
 # For homebrew, set /usr/local/bin before /usr/bin
 export PATH="/usr/local/bin:$PATH"
 
-export EDITOR='atom'
+export EDITOR='vim'
 
 # RUBY
 alias be='bundle exec'
