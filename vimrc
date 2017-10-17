@@ -8,3 +8,7 @@ nnoremap <C-H> <C-W><C-H>
 
 set splitbelow
 set splitright
+
+call plug#begin()
+Plug 'tpope/vim-sensible'
+call plug#end()
