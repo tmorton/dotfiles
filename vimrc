@@ -8,6 +8,8 @@ nnoremap <C-H> <C-W><C-H>
 
 inoremap jk <esc>
 
+noremap <C-p> :FZF<CR> 
+
 set splitbelow
 set splitright
 
