@@ -59,3 +59,5 @@ export NODE_ENV="development"
 . $HOME/.asdf/completions/asdf.bash
 
 source ~/.zshrc.local
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
