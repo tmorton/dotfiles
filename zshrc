@@ -36,6 +36,7 @@ alias ys='yard server -g'
 alias g='git'
 alias dc='docker-compose'
 alias dce='docker-compose exec'
+alias tf='terraform'
 
 # Heroku functions
 hprod () { heroku $* --remote heroku-prod; }
