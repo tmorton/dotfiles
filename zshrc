@@ -41,6 +41,7 @@ alias tf='terraform'
 # Heroku functions
 hprod () { heroku $* --remote heroku-prod; }
 hstag () { heroku $* --remote heroku-staging; }
+hrev () { heroku $* --remote heroku-review-parent; }
 
 
 PATH=$HOME/.rbenv/shims:$PATH
