@@ -63,3 +63,4 @@ export NODE_ENV="development"
 source ~/.zshrc.local
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+if [ -f ~/.env.d/artifactory ]; then . ~/.env.d/artifactory; fi
