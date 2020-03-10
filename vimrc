@@ -23,7 +23,6 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'rakr/vim-one'
 call plug#end()
 
-colorscheme one
 set background=dark
 
 set mouse=a
