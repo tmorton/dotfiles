@@ -33,6 +33,10 @@ alias be='bundle exec'
 alias ber='bundle exec rake'
 alias ys='yard server -g'
 
+# JS
+alias nr='npm run'
+
+# General Development
 alias g='git'
 alias dc='docker-compose'
 alias dce='docker-compose exec'
