@@ -27,3 +27,5 @@
   path = ~/.gitconfig.local
 [core]
   excludesfile = ~/.gitignore
+[init]
+	defaultBranch = main
