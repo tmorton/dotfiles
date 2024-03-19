@@ -32,7 +32,7 @@ export EDITOR='vim'
 alias be='bundle exec'
 alias ber='bundle exec rake'
 alias ys='yard server -g'
-alias r='rails'
+alias r='./bin/rails'
 
 # JS
 alias nr='npm run'
